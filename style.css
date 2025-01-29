@@ -61,8 +61,15 @@ html , body{
     margin-top: -6px;
     background-color: #212121;
     border-radius: 12px;
+    position: relative;
 
 }
+.left-down .footer{
+    
+   
+}
+
+
 .left-down .center{
     display: flex;
     align-items: center;
