@@ -96,13 +96,63 @@ body {
     display: flex;
     align-items: center;
     gap: 9px;
+    margin-bottom: 4vh;
+
 }
 
 .left-down i {
     display: inline-block;
     font-size: 25px;
 }
+.songlist {
+    height: 50vh;
+    overflow: auto;
+    padding: 2px;
+    /* background-color: red; */
+}
+.songlist ul{
+    padding: 0vh 0vw;
+   
+}
+.songlist ul li{
+    list-style-type: decimal;
+    display: flex;
+    gap: 9px;
+    /* justify-content: space-between; */
+    cursor: pointer;
+    padding: 12px 0;
+    border: 2px solid whitesmoke;
+    margin: 5px 0;
+    /* justify-content: center; */
+    padding: 1vw;
+    border-radius: 12px;
+    position: relative;
+    
+}
+.info{
+    font-size: 14px;
+    
+    
+    /* background-color: red; */
+}
+.info div{
+    padding-bottom: 3px;
+}
+.playnow{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    /* background-color: green; */
 
+}
+.playnow span{
+    font-size: 15px;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+}
 .right {
     width: calc(100% - 25vw);
     overflow: auto;
@@ -162,7 +212,9 @@ body {
 
     padding: 16px;
 }
-
+.menu , .close{
+    display: none;
+}
 .card-container {
     display: flex;
     gap: 10px;
@@ -218,22 +270,63 @@ body {
 .playbar{
     position: absolute;
     bottom: 0;
-    background-color: green;
-    width: 100%;
-    padding: 20px;
+    background-color: rgb(25, 30, 25);
+    left: 48%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border-radius: 20px;
+    height: 12vh;
 }
+.flex-play-elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.song-info, .song-time{
+   margin: 10px;
+}
+
+    
+
+.seekbar{
+    width: 94%;
+    height: 2px;
+    left: 3%;
+    border: 2px solid red;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0.8vh;
+    border-radius: inherit;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 8px;
+    left: -5px;
+    transition: left 0.5s;
+}
+
 .buttons{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5vw;
+    width: 50vw;
 }
-.buttons svg{
+.buttons img {
     display: inline-block;
     width: 5vw;
     height: 8vh;
 }
-
+.buttons img{
+    cursor: pointer;
+}
 
 
 
@@ -286,4 +379,34 @@ html {
 /* For the vertical scrollbar */
 ::-webkit-scrollbar-vertical {
     width: 12px;
+}
+
+
+@media (max-width: 1400px) {
+    .left{
+        background-color: red;
+        position: absolute;
+        z-index: 1;
+        left: -100%;
+        transition: all .3s;
+        width: 70vw;
+    }
+    .right{
+        width: 100%;
+        
+        
+    }
+    .menu {
+        display: block;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        right: 7%;
+        top: 3%;
+    }
+    .close img{
+        height: 100px;
+    }
+    
 }
