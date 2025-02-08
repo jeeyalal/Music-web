@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158" height="128" viewBox="0 0 158 128" fill="none">
+    <!-- Updated background color to Cartoon Red (#FF3E3E) with border -->
+    <path d="M154.736 81.5169C148.043 110.376 128.503 130.512 111.093 126.488C101.967 124.372 95.235 116.038 91.8719 104.429C83.7312 113.378 74.0162 117.907 64.8902 115.796C56.766 113.916 50.5407 107.106 46.8914 97.4418C39.3616 104.522 30.775 107.903 22.6507 106.028C5.24637 101.999 -3.43929 75.3383 3.25385 46.4789C9.94699 17.6195 29.487 -2.5161 46.8969 1.51322C55.0156 3.3932 61.2464 10.204 64.8902 19.8678C72.42 12.7876 81.0121 9.40696 89.1363 11.2814C98.2623 13.3978 104.994 21.7313 108.357 33.341C116.498 24.3918 126.213 19.8623 135.339 21.9732C152.749 25.997 161.429 52.6576 154.736 81.5224V81.5169Z" 
+    fill="#FF3E3E" stroke="black" stroke-width="2" stroke-miterlimit="10"></path>
+
+    <!-- Updated text with bold font, tilt effect, and centered alignment -->
+    <text x="50%" y="55%" text-anchor="middle" font-size="12" font-family="Arial, sans-serif" font-weight="bold" fill="white" transform="rotate(-10, 79, 64)">
+       
+    </text>
+</svg>
