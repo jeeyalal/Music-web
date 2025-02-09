@@ -420,8 +420,8 @@ body {
 @media (max-width: 500px) {
     #tr{
         height: 83px;
-    position: absolute;
-    transform: translateY(-61px);
+       position: absolute;
+    transform: translateY(-92px);
     right: 7px;
     }
     .right{
