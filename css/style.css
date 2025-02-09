@@ -412,6 +412,9 @@ body {
     .playbar {
         right: 25px;
     }
+    .box{
+        display: none !important;
+    }
 }
 
 @media (max-width: 500px) {
